@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0
+    ;
+    box-sizing: 0;
+}
+
+.header{
+    background-image: url('images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner{
+    
+    height: 700px;
+}
+.text-box{
+    padding-top: 300px;
+    text-align: center;
+    
+
+}
+ .text-box h1{
+    font-size: 50px;
+    color: white;
+ }
+ .text-box p{
+    color: rgb(232, 212, 212);
+    padding: 15px 0;
+    font-size: 20px;
+ }
+.btn-primary{
+    padding: 20px;
+    color: white ;
+    background-color: #f53939 ;
+    font-size: 22px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-primary:hover{
+    background-color: #f539392e;
+}
+/* donate today section  */
+.donate-text{
+    text-align: center;
+    margin-top: 70px;
+}
+.donate-text h2{
+   font-size: 45px;
+   margin-bottom: 15px;
+    
+}
+.donate-text p{
+    color: gray;
+    font-size: 20px;
+}
+.donate-taka{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    width: 800px; 
+    font-size: 22px;
+   
+}
+.donate-taka h2{
+    background: hsla(0, 0%, 84%, 0.25);
+    padding: 30px 25px;
+    border-radius: 5px;
+}
+.second-donate{
+    color: #f53939;
+    border: #f53939 solid 2px;
+    background-color:#f539392e;
+    border-radius: 5px;
+}
+.donate-amount{
+    width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+.donate-amount hr{
+    margin: 15px 0;
+    color: gray;
+}
+.donate-amount p{
+    color: gray;
+    font-size: 18px;
+
+}
+/* donate plan section  */
+.donate-plan-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px 200px;
+    text-align: start;
+    grid-gap: 20px;
+    
+}
+.donate-plan-single{
+    padding: 50px 15px;
+    border-radius: 5px;
+
+    
+}
+.donate-plan-single h2{
+    padding: 20px 0;
+    font-size: 30px;
+}
+.donate-plan-single p{
+    color: gray;
+    font-size: 20px;
+}
+.donate-plan-single:first-child{
+    background-color: #87cfeb5b;
+}
+.donate-plan-single:nth-child(2){
+    background-color: #ffb6c167;
+    
+}
+.donate-plan-single:nth-child(3){
+    background-color:#fad5a57e ;
+}
